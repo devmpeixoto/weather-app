@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Weather Card -->
+    <div class="card">
+        <!-- search city -->
+        <div class="search">
+            <input type="text" name="" id="search-input" placeholder="enter city name" spellcheck="false">
+            <button class="btn-search">
+                <span class="material-icons">
+                    search
+                </span>
+            </button>
+        </div>
+
+        <!-- invalid city -->
+        <div class="error">
+            <p>Invalid city name</p>
+        </div>
+
+        <!-- weather info -->
+        <div class="weather">
+            <img src="assets/img/rain.png" alt="" class="weather-icon">
+            <h1 class="temp">22°c</h1>
+            <h2 class="city">London</h2>
+
+            <!-- details info -->
+            <div class="details">
+                <div class="col">
+                    <img src="assets/img/humidity.png" alt="">
+                    <div>
+                        <p class="humidity">50%</p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="assets/img/wind.png" alt="">
+                    <div>
+                        <p class="wind">15 km/h</p>
+                        <p>Wind</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/app.js"></script>
+</body>
+
+</html>
