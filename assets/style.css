@@ -100,3 +100,43 @@ h2 {
     font-size: .8rem;
     display: none;
 }
+
+@media (max-width: 468px) {
+
+    .humidity,
+    .wind {
+        font-size: 1rem;
+        margin-top: -6px;
+    }
+}
+
+@media (max-width: 400px) {
+
+    .col img {
+        width: 30px;
+        margin-right: 10px;
+    }
+
+    .humidity,
+    .wind {
+        font-size: 1rem;
+        margin-top: -6px;
+    }
+}
+
+@media (max-width: 370px) {
+    .col img {
+        width: 25px;
+        margin-right: 10px;
+    }
+
+    .col p {
+        font-size: .8rem;
+    }
+
+    .humidity,
+    .wind {
+        font-size: .8rem;
+        margin-top: -6px;
+    }
+}
